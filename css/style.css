@@ -177,6 +177,30 @@ main {
   column-gap: 15px;
 }
 
+.brand-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 0;
+}
+
+.brand-img:hover {
+  border: 1px solid #f948b2;
+  border-radius: 48px;
+}
+
+.brand-img {
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+
+.brand-text span {
+  margin-left: 30px;
+  font-weight: 700;
+}
+
 .footer-area {
   display: flex;
   justify-content: center;
