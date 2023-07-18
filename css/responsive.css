@@ -1,6 +1,7 @@
 @media screen and (max-width: 576px) {
   .header-area {
     flex-direction: column;
+    width: 100%;
   }
   .menu > ul {
     flex-direction: column;
@@ -14,8 +15,21 @@
     flex-direction: column-reverse;
   }
 
+  main {
+    width: 100%;
+  }
+
   .banner-content {
     margin-top: 25px;
+  }
+
+  .play-area {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .play-second-img img {
+    width: 100%;
   }
 }
 
