@@ -163,11 +163,18 @@ main {
   text-align: right;
 }
 
-.play-text span {
+.play-text,
+.product-text span {
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.product-area {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 15px;
 }
 
 .footer-area {
