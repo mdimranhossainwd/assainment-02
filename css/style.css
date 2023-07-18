@@ -27,8 +27,24 @@ p {
   color: #534c64;
 }
 
+.btn {
+  padding: 20px 40px;
+  border-radius: 50px;
+  background: #ff42a5;
+  border: none;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-right: 15px;
+}
+
+.btn-primary {
+  background: #4ec5f7;
+}
+
 .container {
-  width: 1440px;
+  max-width: 1350px;
   margin: 0 auto;
 }
 
@@ -60,7 +76,7 @@ p {
 
 .menu li {
   list-style: none;
-  margin-right: 30px;
+  margin-left: 30px;
 }
 
 .menu li a {
@@ -75,4 +91,46 @@ p {
   border-radius: 8px;
   background: rgba(11, 2, 35, 0.1);
   padding: 17px 25px;
+}
+
+/* BANNER AREA  */
+
+.banner-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+.banner-img img {
+  width: 100%;
+}
+
+.banner-content span {
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #0b0223;
+}
+
+.button {
+  margin-top: 55px;
+}
+
+.banner-content h2 {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+.banner-content li {
+  font-size: 20px;
+  color: #534c64;
+  font-weight: 500;
+  margin-bottom: 15px;
+  list-style: none;
 }

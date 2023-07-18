@@ -9,4 +9,26 @@
   .menu li {
     margin-top: 20px;
   }
+
+  .banner-area {
+    flex-direction: column-reverse;
+  }
+
+  .banner-content {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .header-area {
+    flex-direction: column;
+  }
+
+  .menu > ul {
+    margin-top: 25px;
+  }
+
+  .btn-none {
+    display: none;
+  }
 }
