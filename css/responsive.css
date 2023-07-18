@@ -10,39 +10,7 @@
   .menu li {
     margin-top: 20px;
   }
-
-  .banner-area {
-    flex-direction: column-reverse;
-  }
-
-  main {
-    width: 100%;
-  }
-
-  .banner-content {
-    margin-top: 25px;
-  }
-
-  .play-area {
-    flex-direction: column-reverse;
-    justify-content: center;
-  }
-
-  .play-second-img img {
-    width: 100%;
-  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  .header-area {
-    flex-direction: column;
-  }
-
-  .menu > ul {
-    margin-top: 25px;
-  }
-
-  .btn-none {
-    display: none;
-  }
 }
