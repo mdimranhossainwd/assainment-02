@@ -47,6 +47,10 @@ p {
   background: #4ec5f7;
 }
 
+.none {
+  display: none;
+}
+
 main {
   width: 1440px;
   margin: 0 auto;
