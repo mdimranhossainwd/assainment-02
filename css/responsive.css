@@ -82,7 +82,17 @@
   }
 
   .brand-box {
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 0px;
+  }
+
+  .brand-img img {
+    width: 21%;
+  }
+
+  .brand-text span {
+    font-size: 5px;
   }
 
   .footer-list {
