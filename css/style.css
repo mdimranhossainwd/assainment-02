@@ -159,15 +159,16 @@ main {
   list-style: none;
 }
 
+/* Gamer  */
+
 .gamer-area {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   padding: 40px 0;
 }
 
 .gamer-content {
-  width: 50%;
   text-align: right;
 }
 
@@ -180,6 +181,8 @@ main {
   font-size: 32px;
   margin-top: 50px;
 }
+
+/* PLAY-AREA  */
 
 .play-area {
   display: flex;
@@ -208,7 +211,13 @@ main {
   text-align: right;
 }
 
-.play-text,
+.play-text span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .product-text span {
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
@@ -221,6 +230,67 @@ main {
   grid-template-columns: repeat(4, 1fr);
   column-gap: 15px;
 }
+
+.product-box {
+  position: relative;
+}
+
+.product-img {
+  position: relative;
+}
+
+.product-img img {
+  margin-bottom: 15px;
+}
+
+.play-img::before {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  opacity: 0;
+  transition: 0.3s;
+  border-radius: 18px;
+}
+
+.product-img:hover {
+  opacity: 0.5;
+}
+
+.position-content {
+  position: absolute;
+  top: 42%;
+  opacity: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  text-align: center;
+  visibility: hidden;
+}
+
+.product-img:hover .position-content {
+  opacity: 1;
+  visibility: visible;
+}
+
+.position-content a {
+  font-size: 22px;
+  color: #fff;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.position-content span {
+  color: #ff42a5;
+  font-weight: 700;
+}
+
+/* BRAND AREA  */
 
 .brand-box {
   display: flex;
@@ -250,6 +320,8 @@ main {
   margin-left: 30px;
   font-weight: 700;
 }
+
+/* FOOTER-AREA  */
 
 .footer-area {
   display: flex;
@@ -284,6 +356,16 @@ main {
   font-weight: 600;
   font-size: 18px;
   padding: 30px 20px;
+}
+
+.footer-icon {
+  color: #fff;
+  font-size: 24px;
+  padding: 40px 0 50px 0;
+}
+
+.footer-icon i {
+  margin-right: 15px;
 }
 
 .footer-bottom-list {
