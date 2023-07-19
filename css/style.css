@@ -206,6 +206,11 @@ p {
   -webkit-text-fill-color: transparent;
 }
 
+.product-text {
+  text-align: center;
+  padding: 50px 0;
+}
+
 .product-area {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
