@@ -55,4 +55,21 @@
   .banner-content {
     padding: 60px 0;
   }
+
+  .container-wd {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 996px) and (max-width: 1300px) {
+  .header-area,
+  .banner-container {
+    width: 100%;
+    overflow: hidden;
+    justify-content: space-between;
+  }
+
+  .banner-content {
+    width: 50%;
+  }
 }

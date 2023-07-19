@@ -51,7 +51,7 @@ p {
   display: none;
 }
 
-main {
+.container-wd {
   width: 1440px;
   margin: 0 auto;
 }
@@ -161,29 +161,6 @@ main {
   font-weight: 500;
   margin-bottom: 15px;
   list-style: none;
-}
-
-/* Gamer  */
-
-.gamer-area {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-  padding: 40px 0;
-}
-
-.gamer-content {
-  text-align: right;
-}
-
-.gamer-content .btn {
-  margin-bottom: 30px;
-}
-
-.gamer-content h3 {
-  color: #534c64;
-  font-size: 32px;
-  margin-top: 50px;
 }
 
 /* PLAY-AREA  */
